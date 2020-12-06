@@ -1,2 +1,2 @@
-# voteBot
-A simple discord bot  med with the discordjs library.
+# MrButler
+A simple discord bot made with the discordjs library.
