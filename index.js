@@ -9,6 +9,7 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
+// On incoming messages...
 client.on('message', msg => {
     console.log(msg.content);
     if(msg.content[0] != '#') return; // No bot command - return
@@ -26,7 +27,7 @@ client.on('message', msg => {
         msg.react('☕').then(console.log).catch(console.error());
     }
 
-    
+
 });
 
 client.login(Token);
