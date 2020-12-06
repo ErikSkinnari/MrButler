@@ -1,0 +1,16 @@
+{
+  "name": "votebot",
+  "version": "1.0.0",
+  "description": "Discord voting bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erik Skinnari",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
