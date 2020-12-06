@@ -11,7 +11,11 @@ client.on('ready', () => {
 
 // On incoming messages...
 client.on('message', msg => {
-    console.log(msg.content);
+    console.log(msg);
+
+    if (msg.author.bot) return;
+
+    // msg.reply('Your id is: ' + msg.author.id);
     if(msg.content[0] != '#') return; // No bot command - return
 
     const commandParams = (msg.content.toLowerCase().substring(1).split(' '));
@@ -26,8 +30,6 @@ client.on('message', msg => {
         console.log(msg);
         msg.react('☕').then(console.log).catch(console.error());
     }
-
-
 });
 
 client.login(Token);
