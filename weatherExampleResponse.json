@@ -1,0 +1,35 @@
+{
+  "coord": { "lon": 13, "lat": 55.61 },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 5.72,
+    "feels_like": 0.01,
+    "temp_min": 5,
+    "temp_max": 7,
+    "pressure": 1002,
+    "humidity": 87
+  },
+  "visibility": 9000,
+  "wind": { "speed": 6.2, "deg": 100 },
+  "clouds": { "all": 75 },
+  "dt": 1607324636,
+  "sys": {
+    "type": 1,
+    "id": 1575,
+    "country": "SE",
+    "sunrise": 1607325727,
+    "sunset": 1607351845
+  },
+  "timezone": 3600,
+  "id": 2692969,
+  "name": "Malmo",
+  "cod": 200
+}
